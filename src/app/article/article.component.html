@@ -4,9 +4,11 @@
 
     <h1>{{titre}}</h1>
     <p>{{contenu}}</p>
-    <button type="button" class="btn btn-success btn-lg btn-block" (click)="plusUn()">{{compteurLikePlus}}</button>
-    <button type="button" class="btn btn-danger btn-lg btn-block" (click)="moinsUn()">{{compteurLikeMoins}}</button>
-
+    <div class="buttons">
+        <button type="button" class="btn btn-success" (click)="plusUn()">{{compteurLikePlus}}</button>
+        <button type="button" class="btn btn-danger" (click)="moinsUn()">{{compteurLikeMoins}}</button>
+    </div>
+        
     </div>
 </div>
     
