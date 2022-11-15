@@ -1,15 +1,18 @@
-<div class="card" style="width: 500px; margin: 25px;">
+<div class="card">
     <!-- <img class="card-img-top" src="https://via.placeholder.com/500x100 " alt="Card image cap"> -->
-    <img class="card-img-top" src="https://d33wubrfki0l68.cloudfront.net/6c5f8351ec9ba6ee7985cf0cf6773b0babe4cc09/cdadc/divc/images/eventpics/water.gif" alt="Card image cap">
+    <img class="card-img-top"
+        src="https://d33wubrfki0l68.cloudfront.net/6c5f8351ec9ba6ee7985cf0cf6773b0babe4cc09/cdadc/divc/images/eventpics/water.gif"
+        alt="Card image cap">
     <div class="card-body">
 
-    <h1>{{titre}}</h1>
-    <p>{{contenu}}</p>
-    <div class="buttons">
-        <button type="button" class="btn btn-success" (click)="plusUn()"><i class="bi bi-hand-thumbs-up"></i> {{compteurLikePlus}}</button>
-        <button type="button" class="btn btn-danger" (click)="moinsUn()"><i class="bi bi-hand-thumbs-down"></i>{{compteurLikeMoins}}</button>
+        <h1>{{titre}}</h1>
+        <p>{{contenu}}</p>
+        <div class="buttons">
+            <button type="button" class="btn btn-success" (click)="plusUn()"><i class="bi bi-hand-thumbs-up"></i>
+                {{compteurLikePlus}}</button>
+            <button type="button" class="btn btn-danger" (click)="moinsUn()"><i
+                    class="bi bi-hand-thumbs-down"></i>{{compteurLikeMoins}}</button>
+        </div>
+
     </div>
-        
-    </div>
-</div> 
-    
+</div>

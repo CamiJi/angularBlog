@@ -1,11 +1,16 @@
-div.buttons{
+div.buttons {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 125px;
 }
 
-button i{
- margin: 5px;
+button i {
+    margin: 5px;
 }
 
+div.card {
+
+    width: 350px;
+    margin: 15px 5px 10px 5px;
+}
