@@ -5,3 +5,7 @@ div.buttons{
     height: 125px;
 }
 
+button i{
+ margin: 5px;
+}
+
