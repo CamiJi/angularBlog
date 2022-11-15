@@ -20,10 +20,12 @@ export class ArticleComponent implements OnInit {
 
   plusUn(){
     console.log("Plus un");
+    this.compteurLikePlus++;
   }
 
   moinsUn(){
     console.log("Moins un");
+    this.compteurLikeMoins++;
   }
 
 }
